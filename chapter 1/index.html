@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Website</title>
+
+
+</head>
+<body>
+    <script>
+// 1.
+        function welcomeVisitor() {
+            alert("Hello! Welcome to our website.");
+        }
+        window.onload = function() {
+            welcomeVisitor();
+        };
+ //2. 
+        function errorMessage() {
+            alert("Error! please enter a valid password");
+        }
+        window.onload = function() {
+            errorMessage();
+        };
+// 3.
+        function errorMessage() {
+            alert("Welcome to JS land!\nHappy coding!");
+        }
+        window.onload = function() {
+            errorMessage();
+        };
+
+// 4.
+           // Function to greet the visitor
+        function greetVisitor() {
+        alert("Welcome to JS land!");
+        }
+
+        // Function to display alert with option to call greetVisitor
+        function showAlert() {
+        alert("Happy coding!\nprevent this page from creating aditional dialoges");
+        }
+
+//5. 
+       // Call showAlert function when the page loads
+       window.onload = function() {
+       greetVisitor()
+       showAlert();
+       };
+
+
+       var alertMessage = "Hello...I can run JS through my web browser's console.";
+       alert(alertMessage);
+
+
+// 7.
+
+<div class="alert">
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      This is an alert message.
+</div>
+
+
+
+
+    
+
+
+
+
+
+
+
+
+ </script>    
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>

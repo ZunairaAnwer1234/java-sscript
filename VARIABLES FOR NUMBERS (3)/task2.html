@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visitor Counter</title>
+    <script>
+        // Check if the visitor count is already stored in localStorage
+        let visitCount = localStorage.getItem('visitCount');
+
+        // If not, set the count to 0
+        if (visitCount === null) {
+            visitCount = 0;
+        }
+
+        // Increment the count for each visit
+        visitCount++;
+        localStorage.setItem('visitCount', visitCount);
+
+        // Display the number of visits on the webpage
+        document.write("You have visited this site " + visitCount + " times");
+    </script>
+</head>
+<body>
+</body>
+</html>
